@@ -1,0 +1,88 @@
+html{
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50rem;
+    font-size: 0.9rem;
+    font-family: Lexend Deca;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.sedan-card{
+    background-color: hsl(31, 77%, 52%);
+    /* text-align: start; */
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 0.6rem;
+    max-width: 33.3%;
+}
+.suv-card{
+    background-color: hsl(184, 100%, 22%);
+    /* text-align: start; */
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 0.6rem;
+    max-width: 33.3%;
+}
+.luxury-card{
+    background-color: hsl(179, 100%, 13%);
+    /* text-align: start; */
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 0.6rem;
+    max-width: 33.3%;
+}
+.card-title{
+    font-family: Big Shoulders Display;
+    margin-bottom: 0%;
+}
+.card-description{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend deca;
+    font-weight: 400;
+    padding-bottom: 2.2rem;
+}
+.card-learnMore{
+    background-color: white;
+    text-decoration: none;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: hsl(31, 77%, 52%);
+    border-radius: 30px;
+}
+.card-learnMore:hover{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
