@@ -39,6 +39,7 @@ body{
     align-items: start;
     row-gap: 0.6rem;
     max-width: 33.3%;
+    color: hsl(31, 77%, 52%);
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
 }
@@ -47,6 +48,7 @@ body{
     /* text-align: start; */
     padding: 3rem;
     display: flex;
+    color: hsl(184, 100%, 22%);
     flex-direction: column;
     justify-content: center;
     align-items: start;
@@ -58,6 +60,7 @@ body{
     /* text-align: start; */
     padding: 3rem;
     display: flex;
+    color: hsl(179, 100%, 13%);
     flex-direction: column;
     justify-content: center;
     align-items: start;
@@ -69,6 +72,7 @@ body{
 .card-title{
     font-family: Big Shoulders Display;
     margin-bottom: 0%;
+    color: white;
 }
 .card-description{
     color: hsla(0, 0%, 100%, 0.75);
@@ -82,8 +86,8 @@ body{
     padding: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    color: hsl(31, 77%, 52%);
     border-radius: 30px;
+    color: inherit;
 }
 .card-learnMore:hover{
     color: white;
